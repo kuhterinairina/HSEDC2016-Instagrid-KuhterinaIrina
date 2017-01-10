@@ -1,0 +1,46 @@
+body {
+  min-width: 996px;
+
+}
+
+.gallery {
+  position: relative;;
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 800px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.pic {
+  position: relative;
+  background-size: cover;
+}
+
+#pic1{
+  background-image: url(../imgs/pic1.jpg);
+  width: 500px;
+  height: 500px;
+  left: 161px;
+}
+
+#pic2{
+  background-color: pink;
+
+  width: 250px;
+  height: 250px;
+  left: 161px;
+}
+
+#pic3{
+  background-color: gray;
+  width: 250px;
+  height: 250px;
+  left: 161px;
+}
+
+@media screen and (max-width: 1440px) {
+  .gallery {
+    width: 100%;
+  }
