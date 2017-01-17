@@ -1,0 +1,47 @@
+.galleryNav {
+  position: fixed;
+  opacity: .1;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.galleryNav:hover {
+  opacity: 1;
+}
+
+.galleryNav div {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 30px;
+  z-index: 1;
+}
+
+.galleryNav div::before,
+.galleryNav div::after {
+  content: '';
+  position: absolute;
+  background: red;
+}
+
+.galleryNav div::before {
+  width: 5px;
+  height: 20px;
+}
+
+.galleryNav div::after {
+  width: 20px;
+  height: 5px;
+}
+
+#prev {
+  transform: rotate(-45deg);
+  border-radius: 50%;
+}
+
+#next {
+  transform: rotate(135deg);
+}
