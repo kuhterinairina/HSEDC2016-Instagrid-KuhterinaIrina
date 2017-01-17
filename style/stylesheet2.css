@@ -1,0 +1,96 @@
+.gallery.center {
+  position: absolute;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  width: 225vh;
+  height: 100vh;
+}
+
+div {
+  position: relative;
+  background-size: cover;
+}
+
+section.two {
+  display: flex;
+  flex-direction: column;
+  width: 25vh;
+  height: 50vh;
+}
+
+div.one {
+  height: 50vh;
+  width: 50vh;
+}
+
+
+div.two {
+  height: 25vh;
+  width: 25vh;
+}
+
+div.two h2 {
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
+  margin-top: 2vh;
+  font-weight: bold;
+  font-size: 3vh;
+  line-height: 3vh;
+}
+div.two p {
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
+  font-size: 2vh;
+  line-height: 3vh;
+  margin-top: 1vh;
+}
+
+div.two figure {
+  background-color: red;
+  margin: 0 auto;
+  width: 5vh;
+  height: 0.5vh;
+  margin-top: 5px;
+  text-align: center;
+
+}
+div.two.sc h2 {
+  margin-top: 6vh;
+}
+
+#pic1 {
+  background-image:url(../imgs/1b.jpg);
+}
+
+#pic2 {
+  background-image:url(../imgs/smoke.jpg);
+}
+
+#pic3{
+  background-color: white;
+}
+
+#pic4{
+  background-image:url(../imgs/big.jpg);
+}
+
+#pic5 {
+  background-image:url(../imgs/br.jpg);
+}
+
+#pic6{
+  background-color: white;
+}
+
+#pic7 {
+  background-image:url(../imgs/hugs.jpg);
+}
+
+#pic8 {
+  background-color: white;
+}
+
+#pic9{
+  background-image:url(../imgs/guitat.jpg)
+}
