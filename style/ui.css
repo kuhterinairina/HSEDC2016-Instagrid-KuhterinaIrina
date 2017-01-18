@@ -1,7 +1,7 @@
 .galleryNav {
   opacity: .1;
   z-index: 1;
-  position: absolute;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,6 +9,7 @@
   width: 100vw;
   top: 44vh;
 }
+
 
 .galleryNav:hover {
   opacity: 1;
@@ -20,6 +21,14 @@
   height: 20px;
   margin: 30px;
   z-index: 1;
+}
+
+
+.circle#prev {
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
+
 }
 
 .galleryNav div::before,
