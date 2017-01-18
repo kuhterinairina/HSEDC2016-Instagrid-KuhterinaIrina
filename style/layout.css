@@ -1,0 +1,20 @@
+body {
+  min-width: 996px;
+  font-family: 'Overpass', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+footer, .about, h2 {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h2, p, figure {
+  text-align: center;
+}
+
+div {
+  position: relative;
+  background-size: cover;
+}

@@ -1,15 +1,19 @@
-.gallery.center {
-  position: absolute;
-  overflow-x: scroll;
-  overflow-y: hidden;
+.gallery {
+  margin: 20vh;
+  height: 60vh;
   display: flex;
-  align-items: center;
-  height: 100vh;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.photo {
+  display: flex;
+  justify-content: center;
 }
 
-div {
-  position: relative;
-  background-size: cover;
+section>div {
+  display: flex;
+  flex-direction: column;
 }
 
 section.two {
@@ -24,23 +28,17 @@ div.one {
   width: 60vh;
 }
 
-
 div.two {
   height: 30vh;
   width: 30vh;
 }
 
 div.two h2 {
-  font-family: 'Overpass', sans-serif;
-  text-align: center;
   margin-top: 4vh;
-  font-weight: bold;
   font-size: 3vh;
   line-height: 3vh;
 }
 div.two p {
-  font-family: 'Overpass', sans-serif;
-  text-align: center;
   font-size: 2vh;
   line-height: 3vh;
   margin-top: 1vh;
@@ -52,7 +50,6 @@ div.two figure {
   width: 5vh;
   height: 0.5vh;
   margin-top: 2vh;
-  text-align: center;
 
 }
 div.two.sc h2 {
